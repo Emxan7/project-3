@@ -1,0 +1,84 @@
+body {
+    font-family: calabari, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    font-family: 'WillyWonka', sans-serif;
+    background-color: #5a3d5c;
+    color: rgb(209, 190, 190);
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #8e5572;
+    overflow: hidden;
+}
+
+nav ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+nav ul li a:hover {
+    background-color: #714761;
+    border-radius: 5px;
+}
+
+section {
+    color: rgb(76, 76, 74);
+    padding: 2em;
+}
+
+section img {
+    width: 45%;
+    height: auto;
+    display: block;
+    margin: 1em 0;
+}
+
+table {
+    color: rgb(76, 76, 74);
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ca265a;
+}
+
+th, td {
+    padding: 0.5em;
+    text-align: left;
+}
+
+th {
+    background-color: #f2bfbf;
+}
+
+footer {
+    background-color: #5a3d5c;
+    color: rgb(158, 158, 156);
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
